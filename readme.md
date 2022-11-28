@@ -21,7 +21,7 @@ There are sie files for each dataset. For example, the Amazon dataset contains t
 
 # C++ codes 
 
-The C++ source codes are in <b>PGST.cpp</b>. 
+The C++ source codes are in <b>HL_dummy_202*****.cpp</b>. 
 
 It is recommended to fold all the regions of codes for easy reading (by pressing Ctrl+M+O in Visual Studio). 
 
