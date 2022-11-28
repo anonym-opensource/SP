@@ -7,7 +7,9 @@ The introduction of these files are as follows.
 
 There are six datasets: Musae, Twitch, Github, Amazon, DBLP, Reddit (zipped together; should be unzipped first). 
 
-There are sie files for each dataset. For example, the Amazon dataset contains the following files: amazon_edges.txt, amazon_vertex_names.txt, amazon_graph_Jacard_ec.binary, amazon_graph_random_ec.binary, amazon_MDC_query_list.binary, amazon_query_list.binary. 
+There are sie files for each dataset. For example, the Amazon dataset contains the following files: 
+1. amazon_edges.txt
+2. amazon_vertex_names.txt, amazon_graph_Jacard_ec.binary, amazon_graph_random_ec.binary, amazon_MDC_query_list.binary, amazon_query_list.binary. 
 
 
 
