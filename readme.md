@@ -8,8 +8,12 @@ The introduction of these files are as follows.
 There are six datasets: Musae, Twitch, Github, Amazon, DBLP, Reddit (zipped together; should be unzipped first). 
 
 There are sie files for each dataset. For example, the Amazon dataset contains the following files: 
-1. amazon_edges.txt
-2. amazon_vertex_names.txt, amazon_graph_Jacard_ec.binary, amazon_graph_random_ec.binary, amazon_MDC_query_list.binary, amazon_query_list.binary. 
+1. amazon_edges.txt: the edges, as well as random and Jacard edge weights.
+2. amazon_vertex_names.txt: the vertices as well as vertex names.
+3. amazon_graph_Jacard_ec.binary: the binary file of an adjacency list of the Amazon graph with Jacard weights. This file will be read by the following codes.
+4. amazon_graph_random_ec.binary: the binary file of an adjacency list of the Amazon graph with random weights. This file will be read by the following codes.
+5. amazon_MDC_query_list.binary: the randomly generated query list for the indexing algorithms in the main experiments (each query is a pair of dummy and non-dummy vertices). This file will be read by the following codes.
+6. amazon_query_list.binary: the randomly generated query list for the GST and MDC algorithms in the main experiments (each query is a set of dummy vertices, respresenting the set of vertex groups in the GST and MDC problems). This file will be read by the following codes.
 
 
 
